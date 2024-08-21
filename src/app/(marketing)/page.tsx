@@ -36,7 +36,7 @@ const HomePage = () => {
             </button>
 
             <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
-              <h1 className="text-3xl md:text-5xl lg:text-6xl lg:w-[1000px] md:!leading-snug text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent text-black font-extrabold">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl lg:w-[1000px] md:!leading-snug text-center text-black font-extrabold">
                 Enhance Pharma Strategy Insights with Leveraged Trend Analytics
               </h1>
               <p className="text-base md:text-lg text-muted mt-6 text-center">
