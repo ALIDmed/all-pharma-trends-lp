@@ -59,7 +59,7 @@ const HomePage = () => {
       <Wrapper>
         <Container>
           <div className="flex flex-col items-center justify-center py-20 h-full">
-            <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
+            <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200 cursor-default">
               <span>
                 <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
               </span>
@@ -88,7 +88,7 @@ const HomePage = () => {
               </p>
               <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                 <Link
-                  href="#"
+                  href="#email"
                   className="flex items-center justify-center w-max rounded-full border-blue-900 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 select-none"
                 >
                   <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
@@ -219,7 +219,7 @@ const HomePage = () => {
                 Elevate Your Pharma Strategy with Cutting-Edge Trend Monitoring
               </p>
               <Button variant="default" className="mt-6" asChild>
-                <Link href="/sign-in">
+                <Link href="#email">
                   Get started for free
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
@@ -238,7 +238,7 @@ const HomePage = () => {
                   You will be directed to the demo dashboard
                 </p>
               </div>
-              <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
+              <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max" id="email">
                 <form
                   action="#"
                   className="flex flex-col md:flex-row items-center gap-2 w-full md:max-w-xs"
